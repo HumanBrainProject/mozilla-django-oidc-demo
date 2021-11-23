@@ -12,7 +12,7 @@ Demo app installation
 
 .. code::
 
-    $ git clone git@github.com:mtoshi/mozilla-django-oidc-demo.git
+    $ git clone git@github.com:HumanBrainProject/mozilla-django-oidc-demo.git
     $ cd mozilla-django-oidc-demo
     $ python3 -m venv venv
     $ source venv/bin/activate
