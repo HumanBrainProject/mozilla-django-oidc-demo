@@ -12,7 +12,6 @@ Demo app installation
 
 .. code::
 
-    $ python3.7 -m venv /tmp/mozilla-django-oidc-demo && source /tmp/mozilla-django-oidc-demo/bin/activate
     $ git clone git@github.com:mtoshi/mozilla-django-oidc-demo.git
     $ cd mozilla-django-oidc-demo
     $ python3 -m venv venv
@@ -28,21 +27,4 @@ Demo app installation
 .. code::
 
     http://localhost:8000/
-
-* This demo app has several env files
-
-.. code::
-
-    .env.sample.google
-    .env.sample.line
-    .env.sample.yahoojapan
-    .env.sample.hydra
-
-* Please switch accordingly.
-
-.. code::
-
-    # Example
-
-    $ cp .env.sample.line .env
 
